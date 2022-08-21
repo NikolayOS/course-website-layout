@@ -13,21 +13,63 @@
             <div class="container">
                     <div class="header__burger">
                         <span></span>
+                    </div>
                     <div class="logo">
                         <img src="../img/icons/Group.svg" alt="">
                     </div>
-                    <nav class="header-menu">
-                    <ul class="header-list">
-                        <li><a href="#">Понравилось</a></li>
-                        <li><a href="#">личный кабинет</a></li>
-                        <li><a href="#">настройки</a></li>
+                    <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Курсы</a></li>
+                        <li><a href="#">Расписание</a></li>
+                        <li><a href="#">Преподаватели</a></li>
+                        <li><a href="#">Рассылка</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                     </nav>
-                </div>
+                    <div class="cabinet">
+                        <a href="#">Войти в кабинет</a>
+                    </div>
             </div>
         </header>
-        <div class="content"></div>
+        <div class="content">
+            <div class="main-1">
+                <div class="main-1__timer">
+                <h2>Первый курс 
+                    по компьютерной сборке
+                </h2>
+                <div class="countdown">
+                    <div class="time-section">
+                        <span class="count" id="days"></span>
+                        <span class="units">Дней</span>
+                    </div>
+                    <div class="time-section">
+                        <span class="count" id="hours"></span>
+                        <span class="units">Часов</span>
+                    </div>
+                    <div class="time-section">
+                        <span class="count" id="minutes"></span>
+                        <span class="units">Минут</span>
+                    </div>
+                    <div class="time-section">
+                        <span class="count" id="seconds"></span>
+                        <span class="units">Секунд</span>
+                    </div>
+                </div>
+                </div>
+                <div class="main-1__bottom">
+                    <div class="main-1__course">
+                        <a href="#">Заказать курс</a>
+                    </div>
+                    <div class="main-1__students">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/countDown.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
