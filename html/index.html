@@ -62,7 +62,16 @@
                         <a href="#">Заказать курс</a>
                     </div>
                     <div class="main-1__students">
-
+                        <div>Учеников всего:<span id = "students-all"></span></div>
+                        <div>Успешно закончили курс:<span id = "students-done"></span></div>
+                    </div>
+                    <div class="main-1__earned">
+                        <span>Заработано учениками:</span><span id = "students-earned"></span><span>₽</span>
+                        <div class="main-1__earned-line">
+                            <div class="main-1__earned-line-color"></div>
+                        </div>
+                        <span>0</span>
+                        <span id = "main-1__million"></span><span>₽</span>
                     </div>
                 </div>
             </div>
@@ -70,6 +79,8 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/countDown.js"></script>
+    <script src="../js/countNum.js"></script>
+    <script src="../js/scrollAnim.js"></script>
     <script src="../js/script.js"></script>
 </body>
 </html>

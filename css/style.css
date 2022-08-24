@@ -230,6 +230,11 @@ margin-right: 20px;
 .main-1__bottom{
     height: 130px;
     background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .main-1__course{
@@ -244,5 +249,50 @@ margin-right: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    color: #fff;
+}
+
+.main-1__students {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.main-1__students div{
+    margin: 10px 0px 10px 0px;
+}
+.main-1__students div span{
+    padding-left: 20%;
+}
+.main-1__earned {
+    width: 40%;
+}
+.main-1__earned-line {
+    height: 6px;
+    background-color: #fff;
+}
+.main-1__earned-line-color{
+    height: 6px;
+    width: 60%;
+    position: relative;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+._active{
+    height: 6px;
+    width: 60%;
+    position: relative;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    animation-name: run;
+    animation-duration: 1s;
+}
+@keyframes run {
+    0%{
+        width:  0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+#main-1__million{
+    padding-left: 85%;
     color: #fff;
 }
