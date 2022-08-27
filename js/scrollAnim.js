@@ -1,5 +1,5 @@
 
-const animItems = document.querySelectorAll('.main-1__earned-line-color');
+const animItems = document.querySelectorAll('.main-1__earned-line-color,.graph-all');
 
 if (animItems.length > 0) {
     window.addEventListener('scroll', animOnScroll);
