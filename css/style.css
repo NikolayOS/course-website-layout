@@ -691,6 +691,11 @@ padding: 0px 10% 0px;
         margin: 120px 0px 0px 0px;
     }
 }
+@media (max-width: 400px) {
+    .tree-list li:nth-child(odd){
+        margin: 140px 0px 0px 0px;
+    }
+}
 @media (max-width: 300px) {
     .tree-list li:nth-child(odd){
         margin: 160px 0px 0px 0px;
